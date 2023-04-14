@@ -1,6 +1,6 @@
-<h1>Tic-Tac-Toe-Game</h1>
+<h1 align="center">Tic-Tac-Toe-Game</h1>
 
-<p>A game I developed for practising my skills, only.</p>
+<p align="center">A game I developed for practising my skills, only.</p>
 
 <p align="center">https://renanmakoto.github.io/Tic-Tac-Toe-Game/</p>
 
