@@ -41,6 +41,7 @@ function theresWinner() {
     }
     return false
 }
+
 function confirmRefresh() {
 var okToRefresh = confirm("Do you really want to refresh the page?")
 if (okToRefresh)
