@@ -44,8 +44,7 @@ function theresWinner() {
 
 function confirmRefresh() {
     var okToRefresh = confirm("Do you really want to refresh the page?")
-    if (okToRefresh)
-	{
-			setTimeout("location.reload(true);")
+    if (okToRefresh) {
+	setTimeout("location.reload(true);")
 	}
 }
