@@ -26,6 +26,7 @@ function handMove(position) {
     }
     return endGame
 }
+
 function theresWinner() {
     for (let i = 0; i < winVictory.length; i++) {
         let sequence = winVictory[i]
