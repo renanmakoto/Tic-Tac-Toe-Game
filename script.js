@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
         sqr.addEventListener('click', handClick)
     })
 })
+
 function handClick(event) {
     let sqr = event.target
     let position = sqr.id
