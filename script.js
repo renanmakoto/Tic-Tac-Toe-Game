@@ -26,6 +26,7 @@ function updateSqr(position) {
 
 function updateSqrs() {
     let sqrs = document.querySelectorAll('.sqr')
+    
     sqrs.forEach((sqr) => {
         let position = sqr.id
         let symbol = board[position]
