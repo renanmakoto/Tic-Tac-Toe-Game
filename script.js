@@ -20,6 +20,7 @@ function handClick(event) {
 function updateSqr(position) {
     let sqr = document.getElementById(position.toString())
     let symbol = board[position]
+    
     sqr.innerHTML = `<div class='${symbol}'></div>`
 }
 
