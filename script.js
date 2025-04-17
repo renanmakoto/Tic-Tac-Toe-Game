@@ -16,6 +16,7 @@ function handClick(event) {
     }
     updateSqr(position)
 }
+
 function updateSqr(position) {
     let sqr = document.getElementById(position.toString())
     let symbol = board[position]
