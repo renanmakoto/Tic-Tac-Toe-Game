@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 function handClick(event) {
     let sqr = event.target
     let position = sqr.id
+    
     if (handMove(position)) {
         setTimeout(() => {
             alert("Game over! The winner is " + playerTurn)
