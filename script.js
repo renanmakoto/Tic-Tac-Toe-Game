@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     let sqrs = document.querySelectorAll('.sqr')
+    
     sqrs.forEach((sqr) => {
         sqr.addEventListener('click', handClick)
     })
