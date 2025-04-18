@@ -31,6 +31,7 @@ function updateSqrs() {
     sqrs.forEach((sqr) => {
         let position = sqr.id
         let symbol = board[position]
+        
         if (symbol != '') {
             sqr.innerHTML = `<div class='${symbol}'></div>`
         }
