@@ -19,6 +19,7 @@ h1{
 .circle{
     position: relative;
 }
+
 .circle:after{
     position: absolute;
     content: "\2B55";
