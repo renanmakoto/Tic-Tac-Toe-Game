@@ -17,6 +17,7 @@ function handMove(position) {
     if (endGame) {
         return
     }
+    
     if (board[position] == '') {
         board[position] = symbols[playerTurn]
         endGame = theresWinner()
