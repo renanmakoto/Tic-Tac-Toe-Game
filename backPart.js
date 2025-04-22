@@ -34,7 +34,8 @@ function theresWinner() {
         let position1 = sequence[0]
         let position2 = sequence[1]
         let position3 = sequence[2]
-        if (board[position1] == board[position2] &&
+        
+	if (board[position1] == board[position2] &&
             board[position1] == board[position3] &&
             board[position1] != '') {
             return true
